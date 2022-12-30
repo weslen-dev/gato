@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family:'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color:#003e4f;
+}
+
+
+/* SECTION LOGO */
+
+.container-principal{
+    margin: auto;
+    display: flex;
+    
+}
+
+.container-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 500px;
+}
+
+.paragrafo-logo{
+    font-size: 32px;
+    font-weight: 600;
+    color: #fff;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
+}
+
+.span-cat{
+    color: #FFA400;
+}
+
+
+
+/* SECTION CONTEUDO */
+
+
+
+.container-conteudo{
+    padding: 20px 30px;
+}
+
+.label-pesquisar{
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+
+.input-texto{
+    width: 400px;
+    height: 35px;
+    border: 1.5px solid #363743;
+    border-radius: 10px;
+    background-color: #202128;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 10px;
+    color: #fff;
+    
+}
+.input-texto::placeholder{
+    color: #717983;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+
+.botao{
+    padding: 10px;
+    width: 100px;
+    margin-left: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: #DC602E;
+    font-size: 15px;
+    color: #232528;
+    font-weight: 500;
+    
+}
+
+.botao:hover{
+    background-color: coral;
+}
+
+/* INFORMACOES DA API */
+
+.container-api{
+    height: 350px;
+    width: 550px;
+    margin-top: 35px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.imagem-api{
+    height: 350px;
+    width: 550px;
+    border-radius: 10px;
+}
+
+
+.figcaption-nome-gato{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    display: flex;
+    
+}
+.span-nome-gato{
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.msg-erro{
+    color: white;
+    font-weight: 600;
+}
+
+
+
+
